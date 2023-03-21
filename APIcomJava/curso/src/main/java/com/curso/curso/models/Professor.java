@@ -11,4 +11,29 @@ public class Professor {
     private String nome;
     private Curso[] cursos;
     private Aluno[] alunos;
+    
+    public Long getIdProfessor() {
+        return idProfessor;
+    }
+    public void setIdProfessor(Long idProfessor) {
+        this.idProfessor = idProfessor;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public Curso[] getCursos() {
+        return cursos;
+    }
+    public void setCursos(Curso[] cursos) {
+        this.cursos = cursos;
+    }
+    public Aluno[] getAlunos() {
+        return alunos;
+    }
+    public void setAlunos(Aluno[] alunos) {
+        this.alunos = alunos;
+    }
 }
